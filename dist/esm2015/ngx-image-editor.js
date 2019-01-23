@@ -3,7 +3,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatAutocompleteModule, MatButtonModule, MatButtonToggleModule, MatIconModule, MatInputModule, MatMenuModule, MatProgressSpinnerModule, MatSliderModule, MatDialogModule, MatTabsModule, MatTooltipModule } from '@angular/material';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 /**
  * @fileoverview added by tsickle
@@ -620,7 +620,7 @@ NgxImageEditorModule.decorators = [
     { type: NgModule, args: [{
                 imports: [
                     FormsModule,
-                    BrowserAnimationsModule,
+//                     BrowserAnimationsModule,
                     CommonModule,
                     ReactiveFormsModule,
                     FlexLayoutModule,
